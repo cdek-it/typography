@@ -1,0 +1,16 @@
+{
+  "name": "@cdek-it/typography",
+  "version": "3.0.0dev",
+  "main": "dist/index.css",
+  "style": "dist/index.css",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "cleancss -o dist/index.min.css typography.css"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "clean-css-cli": "^5.6.3"
+  }
+}
