@@ -26,6 +26,10 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Run build
+        uses: borales/actions-yarn@v4
+        with:
+          cmd: build
       - name: Update npm
         run: npm install -g npm@latest
       - run: npm publish
