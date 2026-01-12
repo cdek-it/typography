@@ -1,6 +1,6 @@
 {
   "name": "@cdek-it/typography",
-  "version": "3.0.0dev",
+  "version": "3.0.0-alpha.1.0",
   "main": "dist/index.css",
   "style": "dist/index.css",
   "files": [
@@ -8,6 +8,13 @@
   ],
   "scripts": {
     "build": "cleancss -o dist/index.min.css typography.css"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdek-it/typography.git"
   },
   "license": "MIT",
   "devDependencies": {
