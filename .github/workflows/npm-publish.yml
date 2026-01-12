@@ -28,4 +28,11 @@ jobs:
 
       - name: Update npm
         run: npm install -g npm@latest
-      - run: npm publish
+      - name: Publish to npm
+        run: |
+          if [ "${{ github.event.release.prerelease }}" = "true" ]; then
+            npm publish --tag beta
+          else
+            npm publish
+          fi
+
