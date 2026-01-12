@@ -1,6 +1,6 @@
 {
   "name": "@cdek-it/typography",
-  "version": "3.0.0-alpha.ds211",
+  "version": "3.0.0-beta.ds211.1",
   "main": "dist/index.css",
   "style": "dist/index.css",
   "files": [
