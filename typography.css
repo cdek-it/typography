@@ -1,7 +1,7 @@
 :root {
-    --text-color: var(--p-text-color, #181a1f);
-    --text-color-disabled: var(--p-text-muted-color, #b7b7b7);
-    --text-color-secondary: var(--p-text-secondary-color, #6d7076);
+    --text-color: var(--p-text-color, #2B2E33);
+    --text-color-disabled: var(--p-text-muted-color, #85888E);
+    --text-color-secondary: var(--p-text-secondary-color, #6D7076);
     --text-color-primary: var(--p-text-primary-color, #1dc831);
     --text-color-danger: var(--p-text-danger-color, #db3424);
     --text-color-warning: var(--p-text-warning-color, #dc9710);
@@ -49,6 +49,18 @@
     --lineHeight-80: var(--p-fonts-line-height-80, 2.7857142857142856rem);
     --lineHeight-85: var(--p-fonts-line-height-85, 3.357142857142857rem);
     --lineHeight-auto: var(--p-fonts-line-height-auto, auto);
+}
+
+:root[data-theme="dark"] {
+    --text-color: var(--p-text-color, #FFFFFF);
+    --text-color-disabled: var(--p-text-muted-color, #85888E);
+    --text-color-secondary: var(--p-text-secondary-color, #A2A5A9);
+    --text-color-primary: var(--p-text-primary-color, #77F48A);
+    --text-color-danger: var(--p-text-danger-color, #db3424);
+    --text-color-warning: var(--p-text-warning-color, #FACB75);
+    --text-color-success: var(--p-text-success-color, #77F48A);
+    --text-color-info: var(--p-text-info-color, #77BAF4);
+    --text-color-help: var(--p-text-help-color, #C084FC);
 }
 
 /* display */

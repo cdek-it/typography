@@ -1,4 +1,3 @@
-
 # @cdek-it/typography
 
 `@cdek-it/typography` — пакет с глобальными типографическими стилями для веб-приложений.  
@@ -6,11 +5,25 @@
 
 ---
 
-## Установка
+## Подключение через HTML (рекомендуется)
+
+Для улучшения производительности рекомендуется использовать preconnect:
+
+```html
+<link rel="preconnect" href="https://public-static.cdek.ru" />
+<link rel="stylesheet" href="https://public-static.cdek.ru/common/typography/v3.0.1/typography.min.css">
+```
+
+> ⚠️ Подключение должно идти **до** ваших кастомных стилей, если вы планируете их переопределять.
+---
+
+## Альтернативные способы подключения
+
+### Установка через npm/yarn
 
 ```bash
 npm install @cdek-it/typography
-````
+```
 
 или
 
@@ -18,23 +31,15 @@ npm install @cdek-it/typography
 yarn add @cdek-it/typography
 ```
 
----
-
-## Подключение через CSS (рекомендуется)
-
-Добавьте импорт в ваш глобальный CSS / SCSS файл:
+Импорт в CSS/SCSS файл:
 
 ```css
 @import '@cdek-it/typography/dist/index.min.css';
 ```
 
-> ⚠️ Импорт должен идти **до** ваших кастомных стилей, если вы планируете их переопределять.
+### Поддерживаемые фреймворки (популярные)
 
----
-
-## Поддерживаемые фреймворки (популярные)
-
-### Vue 3 (Vite)
+#### Vue 3 (Vite)
 
 `src/assets/main.css`
 
@@ -52,9 +57,7 @@ import './assets/main.css';
 createApp(App).mount('#app');
 ```
 
----
-
-### React (Vite / Create React App)
+#### React (Vite / Create React App)
 
 `src/main.tsx` или `src/index.tsx`
 
@@ -65,9 +68,7 @@ import App from './App';
 export default App;
 ```
 
----
-
-### Next.js
+#### Next.js
 
 `pages/_app.tsx` **или** `app/layout.tsx`
 
@@ -79,9 +80,7 @@ export default function App({ Component, pageProps }) {
 }
 ```
 
----
-
-### Nuxt 3
+#### Nuxt 3
 
 `nuxt.config.ts`
 
@@ -93,9 +92,7 @@ export default defineNuxtConfig({
 });
 ```
 
----
-
-### Angular
+#### Angular
 
 `angular.json`
 
@@ -114,12 +111,14 @@ export default defineNuxtConfig({
 
 Вы можете переопределять стили typography в своих файлах:
 
-```css
-@import '@cdek-it/typography/dist/index.min.css';
-
-h1 {
-  font-weight: 700;
-}
+```html
+<link rel="preconnect" href="https://public-static.cdek.ru" />
+<link rel="stylesheet" href="https://public-static.cdek.ru/common/typography/v3.0.1/typography.min.css">
+<style>
+  h1 {
+    font-weight: 700;
+  }
+</style>
 ```
 
 ---
@@ -127,15 +126,19 @@ h1 {
 ## Рекомендации
 
 * Подключайте стили **один раз** на уровне приложения
-* Используйте `index.min.css` в продакшене
+* Используйте `typography.min.css` в продакшене
 * Не подключайте typography в `scoped` / `module` стилях
-* Переопределяйте стили **после** импорта пакета
+* Переопределяйте стили **после** подключения пакета
+* Используйте preconnect для улучшения производительности загрузки
 
 ---
 
-## Примечания
+## Темная тема (хак)
 
-* Пакет не распространяется через CDN
-* Подключение через `<link>` не поддерживается
-* Для SSR-проектов используйте глобальное подключение
+Для включения темной темы используйте JavaScript:
 
+```javascript
+document.documentElement.dataset.theme = 'dark';
+```
+
+> ⚠️ Это решение-хак для случаев, когда не используются библиотеки Prime для переключения темы. В штатных ситуациях рекомендуется использовать встроенные механизмы управления темами.
