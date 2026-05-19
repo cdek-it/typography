@@ -20,34 +20,34 @@
     --fontWeight-bold: var(--p-fonts-font-weight-bold, 700);
 
     /* Font Size */
-    --fontSize-xs: var(--p-fonts-font-size-xs, 0.75rem);
-    --fontSize-sm: var(--p-fonts-font-size-sm, 0.875rem);
-    --fontSize-base: var(--p-fonts-font-size-base, 1rem);
-    --fontSize-lg: var(--p-fonts-font-size-lg, 1.125rem);
-    --fontSize-xl: var(--p-fonts-font-size-xl, 1.25rem);
-    --fontSize-2xl: var(--p-fonts-font-size-2xl, 1.5rem);
-    --fontSize-3xl: var(--p-fonts-font-size-3xl, 1.875rem);
-    --fontSize-4xl: var(--p-fonts-font-size-4xl, 2.25rem);
-    --fontSize-5xl: var(--p-fonts-font-size-5xl, 3rem);
-    --fontSize-6xl: var(--p-fonts-font-size-6xl, 3.75rem);
+    --fontSize-xs: var(--p-fonts-font-size-xs, 0.546875rem);
+    --fontSize-sm: var(--p-fonts-font-size-sm, 0.65625rem);
+    --fontSize-base: var(--p-fonts-font-size-base, 0.765625rem);
+    --fontSize-lg: var(--p-fonts-font-size-lg, 0.875rem);
+    --fontSize-xl: var(--p-fonts-font-size-xl, 0.984375rem);
+    --fontSize-2xl: var(--p-fonts-font-size-2xl, 1.09375rem);
+    --fontSize-3xl: var(--p-fonts-font-size-3xl, 1.3125rem);
+    --fontSize-4xl: var(--p-fonts-font-size-4xl, 1.640625rem);
+    --fontSize-5xl: var(--p-fonts-font-size-5xl, 1.96875rem);
+    --fontSize-6xl: var(--p-fonts-font-size-6xl, 2.625rem);
 
     /* Line Height */
-    --lineHeight-10: var(--p-fonts-line-height-10, 0.7857142857142857rem);
-    --lineHeight-15: var(--p-fonts-line-height-15, 0.8571428571428571rem);
-    --lineHeight-20: var(--p-fonts-line-height-20, 0.9285714285714286rem);
-    --lineHeight-25: var(--p-fonts-line-height-25, 1rem);
-    --lineHeight-30: var(--p-fonts-line-height-30, 1.0714285714285714rem);
-    --lineHeight-35: var(--p-fonts-line-height-35, 1.1428571428571428rem);
-    --lineHeight-40: var(--p-fonts-line-height-40, 1.2857142857142858rem);
-    --lineHeight-45: var(--p-fonts-line-height-45, 1.4285714285714286rem);
-    --lineHeight-50: var(--p-fonts-line-height-50, 1.5rem);
-    --lineHeight-55: var(--p-fonts-line-height-55, 1.5714285714285714rem);
-    --lineHeight-60: var(--p-fonts-line-height-60, 1.7142857142857142rem);
-    --lineHeight-65: var(--p-fonts-line-height-65, 1.8571428571428572rem);
-    --lineHeight-70: var(--p-fonts-line-height-70, 2.2857142857142856rem);
-    --lineHeight-75: var(--p-fonts-line-height-75, 2.357142857142857rem);
-    --lineHeight-80: var(--p-fonts-line-height-80, 2.7857142857142856rem);
-    --lineHeight-85: var(--p-fonts-line-height-85, 3.357142857142857rem);
+    --lineHeight-10: var(--p-fonts-line-height-10, 0.6875rem);
+    --lineHeight-15: var(--p-fonts-line-height-15, 0.75rem);
+    --lineHeight-20: var(--p-fonts-line-height-20, 0.8125rem);
+    --lineHeight-25: var(--p-fonts-line-height-25, 0.875rem);
+    --lineHeight-30: var(--p-fonts-line-height-30, 0.9375rem);
+    --lineHeight-35: var(--p-fonts-line-height-35, 1rem);
+    --lineHeight-40: var(--p-fonts-line-height-40, 1.125rem);
+    --lineHeight-45: var(--p-fonts-line-height-45, 1.25rem);
+    --lineHeight-50: var(--p-fonts-line-height-50, 1.3125rem);
+    --lineHeight-55: var(--p-fonts-line-height-55, 1.375rem);
+    --lineHeight-60: var(--p-fonts-line-height-60, 1.5rem);
+    --lineHeight-65: var(--p-fonts-line-height-65, 1.625rem);
+    --lineHeight-70: var(--p-fonts-line-height-70, 2rem);
+    --lineHeight-75: var(--p-fonts-line-height-75, 2.0625rem);
+    --lineHeight-80: var(--p-fonts-line-height-80, 2.4375rem);
+    --lineHeight-85: var(--p-fonts-line-height-85, 2.9375rem);
     --lineHeight-auto: var(--p-fonts-line-height-auto, auto);
 }
 
@@ -154,7 +154,7 @@
     font-size: var(--fontSize-sm);
     font-style: normal;
     font-weight: var(--fontWeight-demibold);
-    line-height: var(--fontSize-sm); /* 100% */
+    line-height: var(--lineHeight-15);
 }
 
 /* Typography Body Styles - Generated from Figma */
@@ -163,7 +163,7 @@
     color: var(--text-color);
     /* secondary-font/text-base/font-bold/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-bold);
     line-height: var(--lineHeight-40);
@@ -173,7 +173,7 @@
     color: var(--text-color-disabled);
     /* secondary-font/text-base/font-bold/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-bold);
     line-height: var(--lineHeight-40);
@@ -183,7 +183,7 @@
     color: var(--text-color-disabled);
     /* secondary-font/text-base/font-bold/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-bold);
     line-height: var(--lineHeight-50);
@@ -193,7 +193,7 @@
     color: var(--text-color);
     /* secondary-font/text-base/font-bold/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-bold);
     line-height: var(--lineHeight-50);
@@ -203,7 +203,7 @@
     color: var(--text-color-primary);
     /* secondary-font/text-base/font-bold/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-bold);
     line-height: var(--lineHeight-40);
@@ -213,7 +213,7 @@
     color: var(--text-color-disabled);
     /* secondary-font/text-base/font-bold/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-bold);
     line-height: var(--lineHeight-40);
@@ -223,7 +223,7 @@
     color: var(--text-color-disabled);
     /* secondary-font/text-base/font-bold/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-bold);
     line-height: var(--lineHeight-50);
@@ -233,7 +233,7 @@
     color: var(--text-color-primary);
     /* secondary-font/text-base/font-bold/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-bold);
     line-height: var(--lineHeight-50);
@@ -243,7 +243,7 @@
     color: var(--text-color-secondary);
     /* secondary-font/text-base/font-bold/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-bold);
     line-height: var(--lineHeight-40);
@@ -253,7 +253,7 @@
     color: var(--text-color-disabled);
     /* secondary-font/text-base/font-bold/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-bold);
     line-height: var(--lineHeight-40);
@@ -263,7 +263,7 @@
     color: var(--text-color-disabled);
     /* secondary-font/text-base/font-bold/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-bold);
     line-height: var(--lineHeight-50);
@@ -273,7 +273,7 @@
     color: var(--text-color-secondary);
     /* secondary-font/text-base/font-bold/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-bold);
     line-height: var(--lineHeight-50);
@@ -283,7 +283,7 @@
     color: var(--text-color);
     /* secondary-font/text-base/font-bold/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-bold);
     line-height: var(--lineHeight-40);
@@ -294,7 +294,7 @@
     color: var(--text-color-disabled);
     /* secondary-font/text-base/font-bold/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-bold);
     line-height: var(--lineHeight-40);
@@ -305,7 +305,7 @@
     color: var(--text-color-disabled);
     /* secondary-font/text-base/font-bold/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-bold);
     line-height: var(--lineHeight-50);
@@ -316,7 +316,7 @@
     color: var(--text-color);
     /* secondary-font/text-base/font-bold/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-bold);
     line-height: var(--lineHeight-50);
@@ -327,7 +327,7 @@
     color: var(--text-color-primary);
     /* secondary-font/text-base/font-bold/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-bold);
     line-height: var(--lineHeight-40);
@@ -338,7 +338,7 @@
     color: var(--text-color-disabled);
     /* secondary-font/text-base/font-bold/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-bold);
     line-height: var(--lineHeight-40);
@@ -349,7 +349,7 @@
     color: var(--text-color-disabled);
     /* secondary-font/text-base/font-bold/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-bold);
     line-height: var(--lineHeight-50);
@@ -360,7 +360,7 @@
     color: var(--text-color-primary);
     /* secondary-font/text-base/font-bold/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-bold);
     line-height: var(--lineHeight-50);
@@ -371,7 +371,7 @@
     color: var(--text-color-secondary);
     /* secondary-font/text-base/font-bold/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-bold);
     line-height: var(--lineHeight-40);
@@ -382,7 +382,7 @@
     color: var(--text-color-disabled);
     /* secondary-font/text-base/font-bold/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-bold);
     line-height: var(--lineHeight-40);
@@ -393,7 +393,7 @@
     color: var(--text-color-disabled);
     /* secondary-font/text-base/font-bold/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-bold);
     line-height: var(--lineHeight-50);
@@ -404,7 +404,7 @@
     color: var(--text-color-secondary);
     /* secondary-font/text-base/font-bold/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-bold);
     line-height: var(--lineHeight-50);
@@ -415,7 +415,7 @@
     color: var(--text-color);
     /* secondary-font/text-lg/font-bold/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-bold);
     line-height: var(--lineHeight-45);
@@ -425,7 +425,7 @@
     color: var(--text-color-disabled);
     /* secondary-font/text-lg/font-bold/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-bold);
     line-height: var(--lineHeight-45);
@@ -435,7 +435,7 @@
     color: var(--text-color-disabled);
     /* secondary-font/text-lg/font-bold/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-bold);
     line-height: var(--lineHeight-60);
@@ -445,7 +445,7 @@
     color: var(--text-color);
     /* secondary-font/text-lg/font-bold/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-bold);
     line-height: var(--lineHeight-60);
@@ -455,7 +455,7 @@
     color: var(--text-color-primary);
     /* secondary-font/text-lg/font-bold/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-bold);
     line-height: var(--lineHeight-45);
@@ -465,7 +465,7 @@
     color: var(--text-color-disabled);
     /* secondary-font/text-lg/font-bold/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-bold);
     line-height: var(--lineHeight-45);
@@ -475,7 +475,7 @@
     color: var(--text-color-disabled);
     /* secondary-font/text-lg/font-bold/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-bold);
     line-height: var(--lineHeight-60);
@@ -485,7 +485,7 @@
     color: var(--text-color-primary);
     /* secondary-font/text-lg/font-bold/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-bold);
     line-height: var(--lineHeight-60);
@@ -495,7 +495,7 @@
     color: var(--text-color-secondary);
     /* secondary-font/text-lg/font-bold/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-bold);
     line-height: var(--lineHeight-45);
@@ -505,7 +505,7 @@
     color: var(--text-color-disabled);
     /* secondary-font/text-lg/font-bold/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-bold);
     line-height: var(--lineHeight-45);
@@ -515,7 +515,7 @@
     color: var(--text-color-disabled);
     /* secondary-font/text-lg/font-bold/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-bold);
     line-height: var(--lineHeight-60);
@@ -525,7 +525,7 @@
     color: var(--text-color-secondary);
     /* secondary-font/text-lg/font-bold/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-bold);
     line-height: var(--lineHeight-60);
@@ -535,7 +535,7 @@
     color: var(--text-color);
     /* secondary-font/text-lg/font-bold/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-bold);
     line-height: var(--lineHeight-45);
@@ -546,7 +546,7 @@
     color: var(--text-color-disabled);
     /* secondary-font/text-lg/font-bold/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-bold);
     line-height: var(--lineHeight-45);
@@ -557,7 +557,7 @@
     color: var(--text-color-disabled);
     /* secondary-font/text-lg/font-bold/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-bold);
     line-height: var(--lineHeight-60);
@@ -568,7 +568,7 @@
     color: var(--text-color);
     /* secondary-font/text-lg/font-bold/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-bold);
     line-height: var(--lineHeight-60);
@@ -579,7 +579,7 @@
     color: var(--text-color-primary);
     /* secondary-font/text-lg/font-bold/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-bold);
     line-height: var(--lineHeight-45);
@@ -590,7 +590,7 @@
     color: var(--text-color-disabled);
     /* secondary-font/text-lg/font-bold/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-bold);
     line-height: var(--lineHeight-45);
@@ -601,7 +601,7 @@
     color: var(--text-color-disabled);
     /* secondary-font/text-lg/font-bold/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-bold);
     line-height: var(--lineHeight-60);
@@ -612,7 +612,7 @@
     color: var(--text-color-primary);
     /* secondary-font/text-lg/font-bold/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-bold);
     line-height: var(--lineHeight-60);
@@ -623,7 +623,7 @@
     color: var(--text-color-secondary);
     /* secondary-font/text-lg/font-bold/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-bold);
     line-height: var(--lineHeight-45);
@@ -634,7 +634,7 @@
     color: var(--text-color-disabled);
     /* secondary-font/text-lg/font-bold/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-bold);
     line-height: var(--lineHeight-45);
@@ -645,7 +645,7 @@
     color: var(--text-color-disabled);
     /* secondary-font/text-lg/font-bold/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-bold);
     line-height: var(--lineHeight-60);
@@ -656,7 +656,7 @@
     color: var(--text-color-secondary);
     /* secondary-font/text-lg/font-bold/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-bold);
     line-height: var(--lineHeight-60);
@@ -667,7 +667,7 @@
     color: var(--text-color);
     /* secondary-font/text-base/font-regular/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-40);
@@ -677,7 +677,7 @@
     color: var(--text-color-disabled);
     /* secondary-font/text-base/font-regular/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-40);
@@ -687,7 +687,7 @@
     color: var(--text-color-disabled);
     /* secondary-font/text-base/font-regular/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-50);
@@ -697,7 +697,7 @@
     color: var(--text-color);
     /* secondary-font/text-base/font-regular/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-50);
@@ -707,7 +707,7 @@
     color: var(--text-color-primary);
     /* secondary-font/text-base/font-regular/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-40);
@@ -717,7 +717,7 @@
     color: var(--text-color-disabled);
     /* secondary-font/text-base/font-regular/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-40);
@@ -727,7 +727,7 @@
     color: var(--text-color-disabled);
     /* secondary-font/text-base/font-regular/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-50);
@@ -737,7 +737,7 @@
     color: var(--text-color-primary);
     /* secondary-font/text-base/font-regular/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-50);
@@ -747,7 +747,7 @@
     color: var(--text-color-secondary);
     /* secondary-font/text-base/font-regular/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-40);
@@ -757,7 +757,7 @@
     color: var(--text-color-disabled);
     /* secondary-font/text-base/font-regular/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-40);
@@ -767,7 +767,7 @@
     color: var(--text-color-disabled);
     /* secondary-font/text-base/font-regular/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-50);
@@ -777,7 +777,7 @@
     color: var(--text-color-secondary);
     /* secondary-font/text-base/font-regular/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-50);
@@ -787,7 +787,7 @@
     color: var(--text-color);
     /* secondary-font/text-base/font-regular/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-40);
@@ -798,7 +798,7 @@
     color: var(--text-color-disabled);
     /* secondary-font/text-base/font-regular/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-40);
@@ -809,7 +809,7 @@
     color: var(--text-color-disabled);
     /* secondary-font/text-base/font-regular/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-50);
@@ -820,7 +820,7 @@
     color: var(--text-color);
     /* secondary-font/text-base/font-regular/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-50);
@@ -831,7 +831,7 @@
     color: var(--text-color-primary);
     /* secondary-font/text-base/font-regular/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-40);
@@ -842,7 +842,7 @@
     color: var(--text-color-disabled);
     /* secondary-font/text-base/font-regular/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-40);
@@ -853,7 +853,7 @@
     color: var(--text-color-disabled);
     /* secondary-font/text-base/font-regular/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-50);
@@ -864,7 +864,7 @@
     color: var(--text-color-primary);
     /* secondary-font/text-base/font-regular/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-50);
@@ -875,7 +875,7 @@
     color: var(--text-color-secondary);
     /* secondary-font/text-base/font-regular/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-40);
@@ -886,7 +886,7 @@
     color: var(--text-color-disabled);
     /* secondary-font/text-base/font-regular/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-40);
@@ -897,7 +897,7 @@
     color: var(--text-color-disabled);
     /* secondary-font/text-base/font-regular/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-50);
@@ -908,7 +908,7 @@
     color: var(--text-color-secondary);
     /* secondary-font/text-base/font-regular/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-50);
@@ -919,7 +919,7 @@
     color: var(--text-color);
     /* secondary-font/text-lg/font-regular/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-45);
@@ -929,7 +929,7 @@
     color: var(--text-color-disabled);
     /* secondary-font/text-lg/font-regular/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-45);
@@ -939,7 +939,7 @@
     color: var(--text-color-disabled);
     /* secondary-font/text-lg/font-regular/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-60);
@@ -949,7 +949,7 @@
     color: var(--text-color);
     /* secondary-font/text-lg/font-regular/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-60);
@@ -959,7 +959,7 @@
     color: var(--text-color-primary);
     /* secondary-font/text-lg/font-regular/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-45);
@@ -969,7 +969,7 @@
     color: var(--text-color-disabled);
     /* secondary-font/text-lg/font-regular/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-45);
@@ -979,7 +979,7 @@
     color: var(--text-color-disabled);
     /* secondary-font/text-lg/font-regular/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-60);
@@ -989,7 +989,7 @@
     color: var(--text-color-primary);
     /* secondary-font/text-lg/font-regular/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-60);
@@ -999,7 +999,7 @@
     color: var(--text-color-secondary);
     /* secondary-font/text-lg/font-regular/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-45);
@@ -1009,7 +1009,7 @@
     color: var(--text-color-disabled);
     /* secondary-font/text-lg/font-regular/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-45);
@@ -1019,7 +1019,7 @@
     color: var(--text-color-disabled);
     /* secondary-font/text-lg/font-regular/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-60);
@@ -1029,7 +1029,7 @@
     color: var(--text-color-secondary);
     /* secondary-font/text-lg/font-regular/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-60);
@@ -1039,7 +1039,7 @@
     color: var(--text-color);
     /* secondary-font/text-lg/font-regular/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-45);
@@ -1050,7 +1050,7 @@
     color: var(--text-color-disabled);
     /* secondary-font/text-lg/font-regular/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-45);
@@ -1061,7 +1061,7 @@
     color: var(--text-color-disabled);
     /* secondary-font/text-lg/font-regular/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-60);
@@ -1072,7 +1072,7 @@
     color: var(--text-color);
     /* secondary-font/text-lg/font-regular/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-60);
@@ -1083,7 +1083,7 @@
     color: var(--text-color-primary);
     /* secondary-font/text-lg/font-regular/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-45);
@@ -1094,7 +1094,7 @@
     color: var(--text-color-disabled);
     /* secondary-font/text-lg/font-regular/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-45);
@@ -1105,7 +1105,7 @@
     color: var(--text-color-disabled);
     /* secondary-font/text-lg/font-regular/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-60);
@@ -1116,7 +1116,7 @@
     color: var(--text-color-primary);
     /* secondary-font/text-lg/font-regular/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-60);
@@ -1127,7 +1127,7 @@
     color: var(--text-color-secondary);
     /* secondary-font/text-lg/font-regular/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-45);
@@ -1138,7 +1138,7 @@
     color: var(--text-color-disabled);
     /* secondary-font/text-lg/font-regular/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-45);
@@ -1149,7 +1149,7 @@
     color: var(--text-color-disabled);
     /* secondary-font/text-lg/font-regular/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-60);
@@ -1160,7 +1160,7 @@
     color: var(--text-color-secondary);
     /* secondary-font/text-lg/font-regular/leading-normal/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-60);
@@ -1171,67 +1171,73 @@
 
 .caption {
     color: var(--text-color);
-    /* primary-font */
-    font-family: var(--fontFamily-heading);
+    /* secondary-font */
+    font-family: var(--fontFamily-base);
     font-size: var(--fontSize-sm);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
-    line-height: var(--lineHeight-30);
+    line-height: var(--lineHeight-35);
+    letter-spacing: 0.0272em;
     text-decoration-line: none;
 }
 
 .caption-disabled {
     color: var(--text-color-disabled);
-    /* primary-font */
-    font-family: var(--fontFamily-heading);
+    /* secondary-font */
+    font-family: var(--fontFamily-base);
     font-size: var(--fontSize-sm);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
-    line-height: var(--lineHeight-30);
+    line-height: var(--lineHeight-35);
+    letter-spacing: 0.0272em;
     text-decoration-line: none;
 }
 
 .caption-primary {
     color: var(--text-color-primary);
-    /* primary-font */
-    font-family: var(--fontFamily-heading);
+    /* secondary-font */
+    font-family: var(--fontFamily-base);
     font-size: var(--fontSize-sm);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
-    line-height: var(--lineHeight-30);
+    line-height: var(--lineHeight-35);
+    letter-spacing: 0.0272em;
     text-decoration-line: none;
 }
 
 .caption-primary-disabled {
     color: var(--text-color-disabled);
-    /* primary-font */
-    font-family: var(--fontFamily-heading);
+    /* secondary-font */
+    font-family: var(--fontFamily-base);
     font-size: var(--fontSize-sm);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
-    line-height: var(--lineHeight-30);
+    line-height: var(--lineHeight-35);
+    letter-spacing: 0.0272em;
     text-decoration-line: none;
 }
 
 .caption-secondary {
     color: var(--text-color-secondary);
-    /* primary-font */
-    font-family: var(--fontFamily-heading);
+    /* secondary-font */
+    font-family: var(--fontFamily-base);
     font-size: var(--fontSize-sm);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
-    line-height: var(--lineHeight-30);
+    line-height: var(--lineHeight-35);
+    letter-spacing: 0.0272em;
     text-decoration-line: none;
 }
 
 .caption-secondary-disabled {
     color: var(--text-color-disabled);
-    /* primary-font */
-    font-family: var(--fontFamily-heading);
+    /* secondary-font */
+    font-family: var(--fontFamily-base);
     font-size: var(--fontSize-sm);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
-    line-height: var(--lineHeight-30);
+    line-height: var(--lineHeight-35);
+    letter-spacing: 0.0272em;
     text-decoration-line: none;
 }
 
@@ -1241,10 +1247,11 @@
     color: var(--text-color);
     /* secondary-font */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-lg);
     font-style: normal;
-    font-weight: var(--fontWeight-bold);
+    font-weight: var(--fontWeight-medium);
     line-height: var(--lineHeight-40);
+    letter-spacing: -0.0745em;
     text-decoration-line: none;
     text-transform: uppercase;
 }
@@ -1253,10 +1260,11 @@
     color: var(--text-color-primary);
     /* secondary-font */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-lg);
     font-style: normal;
-    font-weight: var(--fontWeight-bold);
+    font-weight: var(--fontWeight-medium);
     line-height: var(--lineHeight-40);
+    letter-spacing: -0.0745em;
     text-decoration-line: none;
     text-transform: uppercase;
 }
@@ -1265,10 +1273,11 @@
     color: var(--text-color-secondary);
     /* secondary-font */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-lg);
     font-style: normal;
-    font-weight: var(--fontWeight-bold);
+    font-weight: var(--fontWeight-medium);
     line-height: var(--lineHeight-40);
+    letter-spacing: -0.0745em;
     text-decoration-line: none;
     text-transform: uppercase;
 }
@@ -1277,10 +1286,11 @@
     color: var(--text-color);
     /* primary-font */
     font-family: var(--fontFamily-heading);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-demibold);
-    line-height: var(--lineHeight-30);
+    line-height: var(--lineHeight-35);
+    letter-spacing: -0.051em;
     text-decoration-line: none;
     text-transform: uppercase;
 }
@@ -1289,10 +1299,11 @@
     color: var(--text-color-primary);
     /* primary-font */
     font-family: var(--fontFamily-heading);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-demibold);
-    line-height: var(--lineHeight-30);
+    line-height: var(--lineHeight-35);
+    letter-spacing: -0.051em;
     text-decoration-line: none;
     text-transform: uppercase;
 }
@@ -1301,10 +1312,11 @@
     color: var(--text-color-secondary);
     /* primary-font */
     font-family: var(--fontFamily-heading);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-demibold);
-    line-height: var(--lineHeight-30);
+    line-height: var(--lineHeight-35);
+    letter-spacing: -0.051em;
     text-decoration-line: none;
     text-transform: uppercase;
 }
@@ -1315,7 +1327,7 @@
     color: var(--text-color-danger);
     /* secondary-font */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-40);
@@ -1324,12 +1336,13 @@
 
 .service-danger-sm {
     color: var(--text-color-danger);
-    /* primary-font */
-    font-family: var(--fontFamily-heading);
+    /* secondary-font */
+    font-family: var(--fontFamily-base);
     font-size: var(--fontSize-sm);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
-    line-height: var(--lineHeight-30);
+    line-height: var(--lineHeight-35);
+    letter-spacing: 0.0272em;
     text-decoration-line: none;
 }
 
@@ -1337,7 +1350,7 @@
     color: var(--text-color-help);
     /* secondary-font */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-40);
@@ -1346,12 +1359,13 @@
 
 .service-help-sm {
     color: var(--text-color-help);
-    /* primary-font */
-    font-family: var(--fontFamily-heading);
+    /* secondary-font */
+    font-family: var(--fontFamily-base);
     font-size: var(--fontSize-sm);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
-    line-height: var(--lineHeight-30);
+    line-height: var(--lineHeight-35);
+    letter-spacing: 0.0272em;
     text-decoration-line: none;
 }
 
@@ -1359,7 +1373,7 @@
     color: var(--text-color-info);
     /* secondary-font */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-40);
@@ -1368,12 +1382,13 @@
 
 .service-info-sm {
     color: var(--text-color-info);
-    /* primary-font */
-    font-family: var(--fontFamily-heading);
+    /* secondary-font */
+    font-family: var(--fontFamily-base);
     font-size: var(--fontSize-sm);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
-    line-height: var(--lineHeight-30);
+    line-height: var(--lineHeight-35);
+    letter-spacing: 0.0272em;
     text-decoration-line: none;
 }
 
@@ -1381,7 +1396,7 @@
     color: var(--text-color-success);
     /* secondary-font */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-40);
@@ -1390,12 +1405,13 @@
 
 .service-success-sm {
     color: var(--text-color-success);
-    /* primary-font */
-    font-family: var(--fontFamily-heading);
+    /* secondary-font */
+    font-family: var(--fontFamily-base);
     font-size: var(--fontSize-sm);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
-    line-height: var(--lineHeight-30);
+    line-height: var(--lineHeight-35);
+    letter-spacing: 0.0272em;
     text-decoration-line: none;
 }
 
@@ -1403,7 +1419,7 @@
     color: var(--text-color-warning);
     /* secondary-font */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-40);
@@ -1412,12 +1428,13 @@
 
 .service-warning-sm {
     color: var(--text-color-warning);
-    /* primary-font */
-    font-family: var(--fontFamily-heading);
+    /* secondary-font */
+    font-family: var(--fontFamily-base);
     font-size: var(--fontSize-sm);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
-    line-height: var(--lineHeight-30);
+    line-height: var(--lineHeight-35);
+    letter-spacing: 0.0272em;
     text-decoration-line: none;
 }
 
@@ -1427,7 +1444,7 @@
     color: var(--text-color-info);
     /* secondary-font */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-40);
@@ -1438,7 +1455,7 @@
     color: var(--text-color-info);
     /* secondary-font */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-40);
@@ -1449,7 +1466,7 @@
     color: var(--text-color-help);
     /* secondary-font */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-40);
@@ -1460,7 +1477,7 @@
     color: var(--text-color-help);
     /* secondary-font */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-sm);
+    font-size: var(--fontSize-base);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
     line-height: var(--lineHeight-40);
@@ -1469,45 +1486,49 @@
 
 .anchor-sm {
     color: var(--text-color-info);
-    /* primary-font */
-    font-family: var(--fontFamily-heading);
+    /* secondary-font */
+    font-family: var(--fontFamily-base);
     font-size: var(--fontSize-sm);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
-    line-height: var(--lineHeight-30);
+    line-height: var(--lineHeight-35);
+    letter-spacing: 0.0272em;
     text-decoration-line: none;
 }
 
 .anchor-sm:hover {
     color: var(--text-color-info);
-    /* primary-font */
-    font-family: var(--fontFamily-heading);
+    /* secondary-font */
+    font-family: var(--fontFamily-base);
     font-size: var(--fontSize-sm);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
-    line-height: var(--lineHeight-30);
+    line-height: var(--lineHeight-35);
+    letter-spacing: 0.0272em;
     text-decoration: underline;
 }
 
 .anchor-sm:visited {
     color: var(--text-color-help);
-    /* primary-font */
-    font-family: var(--fontFamily-heading);
+    /* secondary-font */
+    font-family: var(--fontFamily-base);
     font-size: var(--fontSize-sm);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
-    line-height: var(--lineHeight-30);
+    line-height: var(--lineHeight-35);
+    letter-spacing: 0.0272em;
     text-decoration-line: none;
 }
 
 .anchor-sm:visited:hover {
     color: var(--text-color-help);
-    /* primary-font */
-    font-family: var(--fontFamily-heading);
+    /* secondary-font */
+    font-family: var(--fontFamily-base);
     font-size: var(--fontSize-sm);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
-    line-height: var(--lineHeight-30);
+    line-height: var(--lineHeight-35);
+    letter-spacing: 0.0272em;
     text-decoration: underline;
 }
 
