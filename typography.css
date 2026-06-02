@@ -1300,11 +1300,11 @@
 
 .subtitle-base {
     color: var(--text-color);
-    /* secondary-font */
+    /* secondary-font/text-base/font-bold/leading/uppercase */
     font-family: var(--fontFamily-base);
     font-size: var(--fontSize-base);
     font-style: normal;
-    font-weight: var(--fontWeight-medium);
+    font-weight: var(--fontWeight-bold);
     line-height: var(--lineHeight-40);
     text-decoration-line: none;
     text-transform: uppercase;
@@ -1312,11 +1312,11 @@
 
 .subtitle-base-primary {
     color: var(--text-color-primary);
-    /* secondary-font */
+    /* secondary-font/text-base/font-bold/leading/uppercase */
     font-family: var(--fontFamily-base);
     font-size: var(--fontSize-base);
     font-style: normal;
-    font-weight: var(--fontWeight-medium);
+    font-weight: var(--fontWeight-bold);
     line-height: var(--lineHeight-40);
     text-decoration-line: none;
     text-transform: uppercase;
@@ -1324,11 +1324,11 @@
 
 .subtitle-base-secondary {
     color: var(--text-color-secondary);
-    /* secondary-font */
+    /* secondary-font/text-base/font-bold/leading/uppercase */
     font-family: var(--fontFamily-base);
     font-size: var(--fontSize-base);
     font-style: normal;
-    font-weight: var(--fontWeight-medium);
+    font-weight: var(--fontWeight-bold);
     line-height: var(--lineHeight-40);
     text-decoration-line: none;
     text-transform: uppercase;
@@ -1336,36 +1336,36 @@
 
 .subtitle-sm {
     color: var(--text-color);
-    /* primary-font */
-    font-family: var(--fontFamily-heading);
-    font-size: var(--fontSize-base);
+    /* secondary-font/text-sm/font-bold/leading/uppercase */
+    font-family: var(--fontFamily-base);
+    font-size: var(--fontSize-sm);
     font-style: normal;
-    font-weight: var(--fontWeight-demibold);
-    line-height: var(--lineHeight-35);
+    font-weight: var(--fontWeight-bold);
+    line-height: var(--lineHeight-30);
     text-decoration-line: none;
     text-transform: uppercase;
 }
 
 .subtitle-sm-primary {
     color: var(--text-color-primary);
-    /* primary-font */
-    font-family: var(--fontFamily-heading);
-    font-size: var(--fontSize-base);
+    /* secondary-font/text-sm/font-bold/leading/uppercase */
+    font-family: var(--fontFamily-base);
+    font-size: var(--fontSize-sm);
     font-style: normal;
-    font-weight: var(--fontWeight-demibold);
-    line-height: var(--lineHeight-35);
+    font-weight: var(--fontWeight-bold);
+    line-height: var(--lineHeight-30);
     text-decoration-line: none;
     text-transform: uppercase;
 }
 
 .subtitle-sm-secondary {
     color: var(--text-color-secondary);
-    /* primary-font */
-    font-family: var(--fontFamily-heading);
-    font-size: var(--fontSize-base);
+    /* secondary-font/text-sm/font-bold/leading/uppercase */
+    font-family: var(--fontFamily-base);
+    font-size: var(--fontSize-sm);
     font-style: normal;
-    font-weight: var(--fontWeight-demibold);
-    line-height: var(--lineHeight-35);
+    font-weight: var(--fontWeight-bold);
+    line-height: var(--lineHeight-30);
     text-decoration-line: none;
     text-transform: uppercase;
 }
