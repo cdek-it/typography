@@ -1374,12 +1374,12 @@
 
 .service-danger-base {
     color: var(--text-color-danger);
-    /* secondary-font */
+    /* secondary-font/text-lg/font-normal/leading-none/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
-    line-height: var(--lineHeight-40);
+    line-height: var(--lineHeight-auto);
     text-decoration-line: none;
 }
 
@@ -1397,12 +1397,12 @@
 
 .service-help-base {
     color: var(--text-color-help);
-    /* secondary-font */
+    /* secondary-font/text-lg/font-normal/leading-none/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
-    line-height: var(--lineHeight-40);
+    line-height: var(--lineHeight-auto);
     text-decoration-line: none;
 }
 
@@ -1420,12 +1420,12 @@
 
 .service-info-base {
     color: var(--text-color-info);
-    /* secondary-font */
+    /* secondary-font/text-lg/font-normal/leading-none/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
-    line-height: var(--lineHeight-40);
+    line-height: var(--lineHeight-auto);
     text-decoration-line: none;
 }
 
@@ -1443,12 +1443,12 @@
 
 .service-success-base {
     color: var(--text-color-success);
-    /* secondary-font */
+    /* secondary-font/text-lg/font-normal/leading-none/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
-    line-height: var(--lineHeight-40);
+    line-height: var(--lineHeight-auto);
     text-decoration-line: none;
 }
 
@@ -1466,12 +1466,12 @@
 
 .service-warning-base {
     color: var(--text-color-warning);
-    /* secondary-font */
+    /* secondary-font/text-lg/font-normal/leading-none/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
-    line-height: var(--lineHeight-40);
+    line-height: var(--lineHeight-auto);
     text-decoration-line: none;
 }
 
@@ -1491,45 +1491,45 @@
 
 .anchor-base {
     color: var(--text-color-info);
-    /* secondary-font */
+    /* secondary-font/text-lg/font-normal/leading-none/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
-    line-height: var(--lineHeight-40);
+    line-height: var(--lineHeight-auto);
     text-decoration-line: none;
 }
 
 .anchor-base:hover {
     color: var(--text-color-info);
-    /* secondary-font */
+    /* secondary-font/text-lg/font-normal/leading-none/underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
-    line-height: var(--lineHeight-40);
+    line-height: var(--lineHeight-auto);
     text-decoration: underline;
 }
 
 .anchor-base:visited {
     color: var(--text-color-help);
-    /* secondary-font */
+    /* secondary-font/text-lg/font-normal/leading-none/no-underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
-    line-height: var(--lineHeight-40);
+    line-height: var(--lineHeight-auto);
     text-decoration-line: none;
 }
 
 .anchor-base:visited:hover {
     color: var(--text-color-help);
-    /* secondary-font */
+    /* secondary-font/text-lg/font-normal/leading-none/underline */
     font-family: var(--fontFamily-base);
-    font-size: var(--fontSize-base);
+    font-size: var(--fontSize-lg);
     font-style: normal;
     font-weight: var(--fontWeight-regular);
-    line-height: var(--lineHeight-40);
+    line-height: var(--lineHeight-auto);
     text-decoration: underline;
 }
 
