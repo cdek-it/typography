@@ -1,6 +1,6 @@
 :root {
     --text-color: var(--p-text-color, #181A1F);
-    --text-color-disabled: var(--p-text-muted-color, #cecfd2);
+    --text-color-disabled: var(--p-text-muted-color, #85888E);
     --text-color-secondary: var(--p-text-secondary-color, #85888E);
     --text-color-primary: var(--p-text-primary-color, #1dc831);
     --text-color-danger: var(--p-text-danger-color, #db3424);
