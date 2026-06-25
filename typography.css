@@ -60,8 +60,8 @@
 
 :root[data-theme="dark"] {
     --text-color: var(--p-text-color, #FFFFFF);
-    --text-color-disabled: var(--p-text-muted-color, #F0F0F1);
-    --text-color-secondary: var(--p-text-secondary-color, #A2A5A9);
+    --text-color-disabled: var(--p-text-muted-color, #56595f);
+    --text-color-secondary: var(--p-text-secondary-color, #85888e);
     --text-color-primary: var(--p-text-primary-color, #77F48A);
     --text-color-danger: var(--p-text-danger-color, #F47F77);
     --text-color-warning: var(--p-text-warning-color, #FACB75);
