@@ -1,3 +1,10 @@
+/* Порядок слоёв объявляется здесь, чтобы он был корректным независимо от того,
+   подключён пакет до или после Tailwind: preflight (base) не должен перебивать
+   типографику, а утилиты — должны. */
+@layer theme, base, components, utilities;
+
+@layer components {
+
 :root {
     --text-color: var(--p-text-color, #181A1F);
     --text-color-disabled: var(--p-text-muted-color, #85888E);
@@ -2112,4 +2119,6 @@
 [class^="anchor-"]::selection {
     background: var(--p-success-500, #44E858);
     color: var(--text-color);
+}
+
 }
