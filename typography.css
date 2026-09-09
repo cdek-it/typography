@@ -2,15 +2,6 @@
 
 @layer components {
 
-/* Default font families with system fallbacks.
-   Overridden by the app theme if it declares the same tokens. */
-:root {
-    --p-fonts-font-family-base:
-        'Noto Sans', system-ui, -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif;
-    --p-fonts-font-family-heading:
-        'TT Fellows', system-ui, -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif;
-}
-
 :root {
     --text-color: var(--p-text-color, #181A1F);
     --text-color-disabled: var(--p-text-muted-color, #85888E);
