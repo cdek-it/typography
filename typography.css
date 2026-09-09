@@ -17,8 +17,8 @@
     --text-color-help: var(--p-text-help-color, #9457EA);
 
     /* Font Family */
-    --fontFamily-heading: var(--p-fonts-font-family-heading, 'TT Fellows');
-    --fontFamily-base: var(--p-fonts-font-family-base, 'Noto Sans');
+    --fontFamily-heading: var(--p-fonts-font-family-heading, 'TT Fellows', system-ui, -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif);
+    --fontFamily-base: var(--p-fonts-font-family-base, 'Noto Sans', system-ui, -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif);
 
     /* Font Weight */
     --fontWeight-regular: var(--p-fonts-font-weight-regular, 400);
