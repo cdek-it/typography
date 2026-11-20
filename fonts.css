@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/* Шрифты дизайн-системы CDEK: TT Fellows (заголовки) и Noto Sans (текст).
+   Файлы лежат рядом, в fonts/; unicode-range соответствует их покрытию.
+   Подключение: https://public-static.cdek.ru/common/ds/fonts.css */
+
+@font-face {
+  font-family: 'TT Fellows';
+  src: url('fonts/TTFellows-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+20-7e, U+a0-ff, U+100-17f, U+400-4ff, U+500-52f, U+2010-2027, U+2030-203a, U+20a0-20cf, U+2116-2116, U+2122-2122, U+2212-2212;
+}
+
+@font-face {
+  font-family: 'TT Fellows';
+  src: url('fonts/TTFellows-DemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+20-7e, U+a0-ff, U+100-17f, U+400-4ff, U+500-52f, U+2010-2027, U+2030-203a, U+20a0-20cf, U+2116-2116, U+2122-2122, U+2212-2212;
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('fonts/NotoSans-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+20-7e, U+a0-ff, U+100-17f, U+400-4ff, U+500-52f, U+2010-2027, U+2030-203a, U+20a0-20cf, U+2116-2116, U+2122-2122, U+2212-2212;
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('fonts/NotoSans-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+20-7e, U+a0-ff, U+100-17f, U+400-4ff, U+500-52f, U+2010-2027, U+2030-203a, U+20a0-20cf, U+2116-2116, U+2122-2122, U+2212-2212;
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('fonts/NotoSansMath-Arrows.woff2') format('woff2');
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+2190-2193;
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('fonts/NotoSansArmenian-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+530-58f;
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('fonts/NotoSansArmenian-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+530-58f;
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('fonts/NotoSansGeorgian-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+10a0-10ff, U+1c90-1cbf, U+2d00-2d2f;
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('fonts/NotoSansGeorgian-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+10a0-10ff, U+1c90-1cbf, U+2d00-2d2f;
+}
