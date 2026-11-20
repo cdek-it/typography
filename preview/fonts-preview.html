@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Шрифты дизайн-системы CDEK — проверка подключения</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #10233f;
+        --muted: #5b6b82;
+        --line: #dde3ec;
+        --ok: #0a7d45;
+        --bad: #b3261e;
+        --accent: #00a651;
+        font-family: "Noto Sans", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+      }
+      body {
+        margin: 0;
+        padding: 40px 24px 64px;
+        color: var(--ink);
+        background: #f6f8fb;
+      }
+      main {
+        max-width: 880px;
+        margin: 0 auto;
+      }
+      h1,
+      h2,
+      h3 {
+        font-family: "TT Fellows", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+        line-height: 1.2;
+        margin: 0;
+      }
+      h1 {
+        font-size: 40px;
+        font-weight: 600;
+      }
+      h2 {
+        font-size: 28px;
+        font-weight: 600;
+        margin-bottom: 8px;
+      }
+      .lead {
+        color: var(--muted);
+        margin: 10px 0 0;
+      }
+      .panel,
+      section {
+        background: #fff;
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        padding: 24px;
+        margin-top: 24px;
+      }
+      .panel code {
+        font-size: 13px;
+        word-break: break-all;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 14px;
+      }
+      td,
+      th {
+        text-align: left;
+        padding: 8px 12px 8px 0;
+        border-bottom: 1px solid var(--line);
+        vertical-align: top;
+      }
+      th {
+        color: var(--muted);
+        font-weight: 400;
+      }
+      .status {
+        font-weight: 700;
+      }
+      .status--ok {
+        color: var(--ok);
+      }
+      .status--bad {
+        color: var(--bad);
+      }
+      .sample {
+        display: grid;
+        gap: 10px;
+        margin-top: 16px;
+      }
+      .sample p {
+        margin: 0;
+        font-size: 18px;
+        line-height: 1.5;
+      }
+      .sample small {
+        display: block;
+        color: var(--muted);
+        font-size: 12px;
+        font-family: "Noto Sans", system-ui, sans-serif;
+      }
+      .mono {
+        font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+        font-size: 13px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Шрифты дизайн-системы CDEK</h1>
+      <p class="lead">TT Fellows для заголовков, Noto Sans для текста. Ниже — статус загрузки и образцы.</p>
+
+      <div class="panel">
+        <table>
+          <tr>
+            <th>CSS</th>
+            <td><code id="css-url"></code></td>
+          </tr>
+          <tr>
+            <th>TT Fellows 600</th>
+            <td class="status" id="tt-600">проверяется…</td>
+          </tr>
+          <tr>
+            <th>TT Fellows 400</th>
+            <td class="status" id="tt-400">проверяется…</td>
+          </tr>
+          <tr>
+            <th>Noto Sans 400</th>
+            <td class="status" id="ns-400">проверяется…</td>
+          </tr>
+          <tr>
+            <th>Noto Sans 700</th>
+            <td class="status" id="ns-700">проверяется…</td>
+          </tr>
+        </table>
+        <p class="mono" id="hint">
+          Локальная проверка: откройте с параметром <code>?css=/fonts.css</code>, подняв статический
+          сервер в корне репозитория.
+        </p>
+      </div>
+
+      <section>
+        <h2>TT Fellows — заголовки</h2>
+        <div class="sample">
+          <p style="font-family: 'TT Fellows', sans-serif; font-weight: 600; font-size: 32px">
+            Доставка по России за 1–3 дня
+          </p>
+          <p style="font-family: 'TT Fellows', sans-serif; font-weight: 400; font-size: 24px">
+            Отделения СДЭК рядом с домом и работой
+          </p>
+          <small>Заголовок 600 и 400, кириллица и латиница: CDEK, «СДЭК», № 123456</small>
+        </div>
+      </section>
+
+      <section>
+        <h2>Noto Sans — текст</h2>
+        <div class="sample">
+          <p>
+            Обычный текст: посылка № 1234567890 отправлена 20 ноября, стоимость доставки —
+            <strong>490 ₽</strong>, трек-номер придёт в SMS.
+          </p>
+          <p style="font-weight: 700">
+            Жирный текст: € 5,00 · 12 345,67 ₽ · скидка 10 % · «СДЭК» · ООО «СДЭК-Глобал»
+          </p>
+          <p style="font-family: 'Noto Sans', sans-serif">
+            Հայերեն · ქართული · ← ↑ → ↓ · — – “ ” …
+          </p>
+          <small>Noto Sans 400 и 700, дополнительно армянский, грузинский и стрелки</small>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      const params = new URLSearchParams(location.search)
+      const cssUrl = params.get('css') || 'https://public-static.cdek.ru/common/ds/fonts.css'
+      document.getElementById('css-url').textContent = cssUrl
+
+      const link = document.createElement('link')
+      link.rel = 'stylesheet'
+      link.href = cssUrl
+      document.head.appendChild(link)
+
+      const checks = [
+        ['tt-600', '600 32px "TT Fellows"', '"TT Fellows"', '600'],
+        ['tt-400', '400 24px "TT Fellows"', '"TT Fellows"', '400'],
+        ['ns-400', '400 16px "Noto Sans"', '"Noto Sans"', '400'],
+        ['ns-700', '700 16px "Noto Sans"', '"Noto Sans"', '700'],
+      ]
+
+      const mark = (id, ok, detail) => {
+        const cell = document.getElementById(id)
+        cell.textContent = ok ? 'загружен' : `не загружен (${detail})`
+        cell.classList.add(ok ? 'status--ok' : 'status--bad')
+      }
+
+      const run = async () => {
+        await new Promise((resolve) => {
+          link.addEventListener('load', resolve)
+          link.addEventListener('error', resolve)
+          setTimeout(resolve, 5000)
+        })
+        for (const [id, load, family, weight] of checks) {
+          try {
+            await document.fonts.load(load)
+          } catch {}
+          const face = [...document.fonts].find(
+            (f) => f.family.replace(/["']/g, '') === family.replace(/["']/g, '') && f.weight === weight,
+          )
+          mark(id, Boolean(face) && (face.status === 'loaded' || document.fonts.check(load)), face ? face.status : 'нет @font-face')
+        }
+      }
+
+      run()
+    </script>
+  </body>
+</html>
