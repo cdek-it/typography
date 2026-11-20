@@ -1,8 +1,7 @@
 @charset "UTF-8";
-/* Сгенерировано scripts/build-fonts.mjs — не редактировать руками.
-   Шрифты дизайн-системы CDEK: TT Fellows (заголовки) и Noto Sans (текст).
+/* Шрифты дизайн-системы CDEK: TT Fellows (заголовки) и Noto Sans (текст).
    Файлы лежат рядом, в fonts/; unicode-range соответствует их покрытию.
-   Регенерация: npm run fonts */
+   Подключение: https://public-static.cdek.ru/common/ds/fonts.css */
 
 @font-face {
   font-family: 'TT Fellows';

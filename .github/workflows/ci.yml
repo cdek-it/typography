@@ -27,6 +27,3 @@ jobs:
 
       - name: Build package
         run: npm run build
-
-      - name: Check fonts.css
-        run: npm run fonts:check
